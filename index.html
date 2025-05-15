@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar">
+            <h1>Rahul</h1>
+            <ul>
+                <li class="nav_items"><a href="#">Home</a></li>
+                <li class="nav_items"><a href="#aboutme">Aboutme</a></li>
+                <li class="nav_items"><a href="#services">Service</a></li>
+                <li class="nav_items"><a href="#contactme">contactme</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="introduction">
+     <div class="about_container">
+        <div class="intro">
+        <h3>UI/UX Designer</h3>
+       <h1>Hi, I'm <span>Rahul</span><br>Yadav From India</h1>
+        </div>
+        <div class="image">
+         <img src="images.jpeg" alt="image_section"/>
+        </div>
+      </div>
+    </div>
+    <div id="aboutme">
+        <div class="aboutme_container">
+            <div class="image_section">
+              <img src="Cristiano_Ronaldo_playing_for_Al_Nassr_FC_against_Persepolis,_September_2023_(cropped).jpg" alt="about_image"/>
+            </div>
+            <div class="info">
+               <h2>About Me</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi a officiis perspiciatis. Consequuntur sequi optio nemo, voluptates quidem illum numquam reiciendis totam minima!</p>
+               <div class="skills_information">
+                <li class="expert active_info" onclick="ontab('skills')">Skills</li>
+                <li class="expert" onclick="ontab('experience')">Experience</li>
+                <li class="expert" onclick="ontab('education')">Education</li>
+               </div>
+               <div class="details active_tab" id="skills">
+                 <li>UI/UX</li>
+                 <span>Designing Web/App interfaces</span>
+                 <li>Web Development</li>
+                 <span>Web app Development</span>
+                 <li>App Development</li>
+                 <span>building Android/iOS Apps</span>
+               </div>
+               <div class="details" id="experience">
+                <li>Lorem, ipsum dolor.</li>
+                 <span>Lorem ipsum, dolor sit amet consectetur adipisicing.</span>
+                 <li>Lorem, ipsum</li>
+                 <span>Lorem ipsum dolor sit amet.</span>
+                 <li>Lorem ipsum dolor sit amet.</li>
+                 <span>Lorem ipsum dolor sit amet.</span>
+               </div>
+                <div class="details" id="education">
+                <li>Class 10th</li>
+                 <span>Designing Web/App interfaces</span>
+                 <li>Class 12th</li>
+                 <span>Web app Development</span>
+                 <li>Bachelor Of Technology</li>
+                 <span>Computer Science Enginnering</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+     <div class="service_container">
+        <h1>My services</h1>
+        <diV class="alltags">
+            <div class="web_designs">
+                <i class="fa-solid fa-code"></i>
+                <span>Web Designs</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, ipsam.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div class="UX_design">
+                <i class="fa-solid fa-crop-simple"></i>
+                 <span>UI/UX Design</span>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, dolor.</p>
+                 <a href="#">learn more</a>
+            </div>
+             <div class="App Design">
+                <i class="fa-brands fa-app-store"></i>
+                 <span>App Design</span>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, dolor.</p>
+                 <a href="#">learn more</a>
+            </div>
+     </div>
+     </div>
+    </div>
+    <div id="mywork">
+        <h1>My Work</h1>
+        <div class="mywork_conatiner">
+          <div class="work_card">
+            <img src="apple-applications-apps-607812.jpg" alt="social_media_image"/>
+            <div class="work_contents">
+              <span>Social Media App</span>
+            <p>The app connnects you to be talented people around the world. Download it from play store.</p>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>  
+            </div>
+        </div>
+        <div class="work_card">
+          <img src="asMF3vPiCEsvVMpKwB8bad-1200-80.jpg" alt="music_app_image"/>
+          <div class="work_contents">
+            <span>Music App</span>
+            <p>The app connnects you to be talented people around the world. Download it from play store.</p>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> 
+          </div>  
+        </div>
+        <div class="work_card">
+            <img src="Social-Media-App-Development.jpg" alt="online_shopping_image"/>
+            <div class="work_contents"> 
+            <span>Online Shopping App</span>
+            <p>The app connnects you to be talented people around the world. Download it from play store.</p>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </div>    
+        </div>
+        </div>
+     </div>
+     <div id="contactme">
+      <div class="contact_container">
+        <div class="contact_firstwall">
+          <h1>Contact Me</h1>
+          <div class="mail">
+            <i class="fa-solid fa-paper-plane"></i>
+            <p>example@gmail.com</p>
+          </div>
+          <div class="phone">
+            <i class="fa-solid fa-phone"></i>
+            <p>123456789</p>
+          </div>
+          <div class="social_media">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+          <button class="btn">Download CV</button>
+        </div>
+        <div class="forms">
+           <form>
+            <input type="text" placeholder="type name" />
+            <input type="email" placeholder="type Email"/>
+            <textarea  id="message" placeholder="type message"></textarea>
+            <button class="btn">Submit</button>
+           </form>
+        </div>
+      </div>
+     </div>
+</body>
+<script src="index.js"></script>
+</html>
